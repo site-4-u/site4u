@@ -1,65 +1,67 @@
 /* Abous us page */
-.about_row
-{
+.about_row {
   min-height: 100vh;
 }
-.about_eachOfUs
-{
+
+.about_eachOfUs {
   margin-top: 4%;
   margin-bottom: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: wrap;
-  justify-content: space-evenly;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-.card-text{
+
+.card-text {
   margin: 0 !important;
   padding: 0 !important;
 }
-.card-body
-{
 
+.card-body {
   text-align: center !important;
 }
-.card-body .btn
-{
+
+.card-body .btn {
   width: 100px !important;
   margin: 0 !important;
   padding: 0 !important;
-
-
 }
-.about_eachOfUs .card
-{
+
+.about_eachOfUs .card {
   border: 0;
 }
-.about_eachOfUs .card-img-top
-{
+
+.about_eachOfUs .card-img-top {
   max-width: 90%;
   border-radius: 30px;
 }
-.about_eachOfUs .card
-{
+
+.about_eachOfUs .card {
   width: 200px !important;
   height: 300px;
   margin: 2% 0 0 0;
   overflow-y: hidden;
 }
 
-.ourMission
-{
+.ourMission {
   text-align: center;
   margin: 3%;
 }
-.ourMission .container
-{
+
+.ourMission .container {
   width: 50%;
 }
-.ourMission .title
-{
+
+.ourMission .title {
   margin-top: 10%;
   font-size: 4rem;
 }
-.FAQ .desc
-{
+
+.FAQ .desc {
   text-align: left !important;
 }
+/*# sourceMappingURL=about.css.map */

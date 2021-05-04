@@ -82,7 +82,7 @@ def eachofus():
 
 
 
-    return render_template("eachofus/eoubase.html",age=age, linkedin=linkedin, name=(name).capitalize(), message=message, favSport=favSport, career =career , instagram=instagram)
+    return render_template("eoubase.html",age=age, linkedin=linkedin, name=(name).capitalize(), message=message, favSport=favSport, career =career , instagram=instagram)
 
 
 
